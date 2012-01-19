@@ -1,0 +1,77 @@
+/*
+ * HybrisGridTable CSS
+ *
+ * Author: Alberto Cole
+ * More info on .js file
+ */
+
+.ui-grid {
+	background-image:none;
+	padding:0.4em;
+	width:870px;
+	margin: 0 auto;
+}
+.ui-grid .ui-grid-content {
+	border-collapse:collapse;
+	width:100%;
+}
+.ui-grid table tbody td,.ui-grid table thead th, .ui-grid .ui-grid-header, .ui-grid table thead a {
+	padding:0.6em;
+}
+
+.ui-grid table tbody td.center
+{
+    text-align:center;
+}
+
+.ui-grid table tbody td.left
+{
+    text-align:left;
+}
+
+.ui-grid table tbody td.right
+{
+    text-align:right;
+}
+
+.ui-grid .ui-grid-header, .ui-grid .ui-grid-footer {
+	padding:0.8em 0.4em;
+	text-align:center;
+}
+.ui-grid .ui-grid-footer {
+	background-image:none;
+	font-weight:normal;
+	text-align:left;
+}
+.ui-grid table thead a {
+	display:block;
+}
+.ui-grid .ui-icon {
+	float:right;
+}
+.ui-grid .ui-grid-paging {
+	float:right;
+}
+.ui-grid .ui-grid-paging-prev {
+	float:left;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}
+.ui-grid .ui-grid-paging-next {
+	float:right;
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}
+.ui-grid .ui-grid-results {
+	
+}
+
+.ui-grid-image-loading
+{
+	 background: url(images/ui.hybrisGridTable-loading.gif) no-repeat scroll 0 0;
+	 width: 66px;
+	 height: 66px;
+	 
+}
