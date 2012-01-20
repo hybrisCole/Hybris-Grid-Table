@@ -3,7 +3,8 @@
  *
  * Author: Alberto Cole
  * 
- * jQuery UI Widget that shows JSON Data in a lightweight Grid, using jQuery UI CSS Framework.
+ * jQuery UI Widget that shows JSON Data in a lightweight Grid, using jQuery UI CSS Framework. 
+ * based on http://wiki.jqueryui.com/w/page/47182351/Grid-Widget
  *
  * Features:
  *		- jQuery UI ThemeRoller Ready
