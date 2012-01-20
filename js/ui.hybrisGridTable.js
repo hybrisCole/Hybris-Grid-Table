@@ -3,7 +3,7 @@
  *
  * Author: Alberto Cole
  * 
- * jQuery UI Widget that shows JSON Data as a Grid, using jQuery UI CSS Framework.
+ * jQuery UI Widget that shows JSON Data in a lightweight Grid, using jQuery UI CSS Framework.
  *
  * Features:
  *		- jQuery UI ThemeRoller Ready
@@ -16,6 +16,11 @@
  *		- Add Samples
  *		- Documentation
  *		- Find and Fix minor UI bugs.
+ *		- Apply chainings and some other code improvements to make it more efficient.
+ *		
+ *		Wishlist:
+ *		- Sorting.
+ *		- Implement Templating.
  */
 var HybrisGridTable = {
     options: {
